@@ -1,0 +1,154 @@
+a:hover{
+	
+	background-color:black;
+	color:white;
+	
+}
+
+.butt {
+
+border:3px solid;
+border-radius:3px;
+font:700 13px montserrat;
+height:35px;
+line-height:35px;
+padding:0 20px;
+margin-top:400px;
+margin-right:300px;
+box-sizing:border-size;
+position:absolute;
+left:50%;
+transform:translate(-50%,0);
+
+
+}
+a{
+	text-decoration:none;
+	color:black;
+	float:left;
+	background-color: #fffdd0;
+	
+}
+.button{
+
+border:1px solid;
+border-radius:3px;
+font:700 13px montserrat;
+height:30px;
+line-height:28px;
+padding:0 20px;
+position:absolute;
+text-align:centre;
+box-sizing:border-size;
+margin-left:50px;
+margin-top:50px;
+
+}
+
+a{
+	text-decoration:none;
+	color:black;
+	float:left;
+	background-color:white;
+	
+}
+
+a:hover{
+	
+	background-color:black;
+	color:white;
+	
+}
+
+input[type="submit"] {
+
+border:3px solid;
+border-radius:3px;
+font:700 13px montserrat;
+height:35px;
+line-height:29px;
+padding:0 20px;
+margin-top:300px;
+margin-right:300px;
+box-sizing:border-size;
+position:absolute;
+left:50%;
+transform:translate(-50%,0);
+background-color:black;
+color:white;
+text-align:center;
+
+}
+input[type="file"]::-webkit-file-upload-button {
+
+border:3px solid;
+border-radius:3px;
+font:700 13px montserrat;
+height:35px;
+line-height:29px;
+padding:20 30px;
+margin-top:200px;
+margin-right:300px;
+box-sizing:border-size;
+position:absolute;
+left:50%;
+transform:translate(-50%,0);
+background-color:black;
+color:red;
+text-align:center;
+
+}
+input[type="file"]::-webkit-file-upload-button:hover{
+	
+	background-color:black;
+	color:white;
+	
+}
+input[type="submit"]:hover{
+	
+background-color:black;
+	color:red;
+}
+
+.container{
+	
+	text-align:centre;
+	position:absolute;
+    left:50%;
+	margin-top:75px;
+    transform:translate(-50%,0);
+	font-family:arial,verdane;
+}
+.container span{
+	
+	color:white;
+    text-transform:uppercase;
+	display:block;
+}
+.text1{
+	font-size:70px;
+	font-weight:700;
+	letter-spacing:10px;
+	animation:text 10s 1;
+	animation-iteration-count:infinite;
+}
+
+@keyframes text{
+	0%{
+		color:black;
+		margin-bottom:-40px;
+	}
+ 
+ 
+ 30%{
+
+  letter-spacing:9px;
+   margin-bottom:-40px;
+  color:black;
+ }	
+  85%{
+	
+	letter-spacing:6px;
+	margin-bottom:-40px;
+
+ }	
